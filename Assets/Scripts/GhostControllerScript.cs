@@ -8,7 +8,11 @@ public class GhostControllerScript : MonoBehaviour
 	public float maxSpeed = 10f;
 	bool facingRight = true;
 	public string ghost = null;
-	int i =0;
+	public string objetoPoseido = null;
+
+
+	bool estaDentro = false;
+	Collider2D collider;
 
 	//variable para modificar la animación idle <-> correr
 	Animator anim;
@@ -48,24 +52,59 @@ public class GhostControllerScript : MonoBehaviour
 		else if(move < 0 && facingRight)
 			Flip ();
 
-	}
 
-	void OnTriggerStay2D(Collider2D collider)
-	{
-		//si el pj accede a un collider
-		if (collider.gameObject.tag == "possesion"){
+		if (this.gameObject.renderer.enabled) {
+			//si el pj esta visible....
+			if (Input.GetButtonDown ("Action" + ghost) && estaDentro){
+				//si se pulsa action y estamos dentro de un objeto 
+				print("Has poseido salvajemente el " +this.collider.gameObject.name);
 
-			//si se apreta la acción definida en el UNITY -> PROJECT SETTINGS -> INPUT
-			//Cada pj tiene una accion ARROWS o WASD
-			if(Input.GetButtonDown("Action"+ghost)){
+				objetoPoseido = this.collider.gameObject.name;
+			 
+				this.gameObject.renderer.enabled = false;
+				collider.gameObject.GetComponent<archivadorControllerScript>().enabled = true;
+			}
+		} else {
+			//si ya estamos poseyendo un objeto, el pj no se muestra y....
 
-				//ERROR: ESTO SE HACE DOS VECES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-				posesion(collider);
-				i++;
+			if (Input.GetButtonDown ("Action" + ghost) && estaDentro){
+				//si se pulsa action y estamos dentro de un objeto 
+				print("Has desposeido salvajemente el " +this.collider.gameObject.name);
+
+				objetoPoseido = this.collider.gameObject.name;
+				this.gameObject.renderer.enabled = true;
+				collider.gameObject.GetComponent<archivadorControllerScript>().enabled = false;
 			}
 		}
+
+	 
+/*
+		if (Input.GetButtonDown ("Action" + ghost) && estaDentro && !this.gameObject.active) {
+
+			this.gameObject.active = true;
+			collider.gameObject.GetComponent<archivadorControllerScript>().enabled = false;
+		} 
+*/
 	}
 
+	//detecta que entra en el objeto poseible. Se hace dos veces porque el prota tiene dos COLLIDERS
+	void OnTriggerEnter2D(Collider2D collider){
+				if (collider.gameObject.tag == "possesion") {
+						estaDentro = true;
+						this.collider = collider;
+						
+				}
+		}
+
+	//detecta que sale en el objeto poseible. Se hace dos veces porque el prota tiene dos COLLIDERS
+	void OnTriggerExit2D(Collider2D collider){
+			if (collider.gameObject.tag == "possesion") {
+				estaDentro = false;
+				this.collider = null;
+				
+			}
+		}
+	
 	void Flip()
 	{
 		//función que orienta al pj
@@ -74,12 +113,13 @@ public class GhostControllerScript : MonoBehaviour
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
-
-	void posesion(Collider2D collider){
-		print("Has poseido salvajemente el " +collider.gameObject.name +" "+i);
-
-
-		//rigidbody2D.velocity = new Vector2(move * maxSpeed, rigidbody2D.velocity.y);
 	
+
+	void posesion(){
+		print("Has poseido salvajemente el " +this.collider.gameObject.name);
+
+		//desactivamos la posesion temporalmente
+		//this.transform.collider.isTrigger = true;
+
 	}
 }

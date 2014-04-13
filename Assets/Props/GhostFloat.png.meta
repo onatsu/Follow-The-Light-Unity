@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: 6bce278ed2a7e4977952c50c523b91f7
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: fantasma caminant_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 36
+        width: 179
+        height: 169
+      alignment: 9
+      pivot: {x: .801137567, y: .371759772}
+    - name: fantasma caminant_1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 40
+        width: 179
+        height: 175
+      alignment: 9
+      pivot: {x: .798032939, y: .287243396}
+    - name: fantasma caminant_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 41
+        width: 184
+        height: 160
+      alignment: 9
+      pivot: {x: .760842144, y: .365387589}
+    - name: fantasma caminant_3
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 50
+        width: 206
+        height: 149
+      alignment: 9
+      pivot: {x: .754455268, y: .296240538}
+    - name: fantasma caminant_4
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 40
+        width: 273
+        height: 177
+      alignment: 9
+      pivot: {x: .791084707, y: .333601743}
+    - name: fantasma caminant_5
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 32
+        width: 265
+        height: 183
+      alignment: 9
+      pivot: {x: .764222801, y: .34816733}
+    - name: fantasma caminant_6
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 32
+        width: 219
+        height: 183
+      alignment: 9
+      pivot: {x: .791809916, y: .354240626}
+    - name: fantasma caminant_7
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 30
+        width: 238
+        height: 190
+      alignment: 9
+      pivot: {x: .747499585, y: .339137346}
+    - name: fantasma caminant_8
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 35
+        width: 175
+        height: 182
+      alignment: 9
+      pivot: {x: .80166924, y: .310693085}
+    - name: fantasma caminant_9
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 30
+        width: 215
+        height: 177
+      alignment: 9
+      pivot: {x: .794653893, y: .346160114}
+  spritePackingTag: 
+  userData: 

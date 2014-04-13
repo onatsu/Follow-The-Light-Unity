@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: 49d0cd39d923d4c01bef77da79230ebf
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: GhostIdle_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 37
+        width: 178
+        height: 152
+      alignment: 9
+      pivot: {x: .822283089, y: .356844336}
+    - name: GhostIdle_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 41
+        width: 185
+        height: 150
+      alignment: 9
+      pivot: {x: .778010368, y: .345044911}
+    - name: GhostIdle_2
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 41
+        width: 178
+        height: 162
+      alignment: 9
+      pivot: {x: .766716778, y: .307679772}
+    - name: GhostIdle_3
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 39
+        width: 177
+        height: 168
+      alignment: 9
+      pivot: {x: .779399633, y: .29982999}
+    - name: GhostIdle_4
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 39
+        width: 178
+        height: 174
+      alignment: 9
+      pivot: {x: .736155629, y: .301048011}
+    - name: GhostIdle_5
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 41
+        width: 154
+        height: 164
+      alignment: 9
+      pivot: {x: .769747674, y: .297963291}
+    - name: GhostIdle_6
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 37
+        width: 155
+        height: 176
+      alignment: 9
+      pivot: {x: .732910931, y: .294879228}
+    - name: GhostIdle_7
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 32
+        width: 155
+        height: 161
+      alignment: 9
+      pivot: {x: .761625826, y: .364846826}
+    - name: GhostIdle_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 30
+        width: 153
+        height: 155
+      alignment: 9
+      pivot: {x: .774742782, y: .397901922}
+    - name: GhostIdle_9
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 33
+        width: 185
+        height: 159
+      alignment: 9
+      pivot: {x: .77533716, y: .363146812}
+  spritePackingTag: 
+  userData: 

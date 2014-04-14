@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: e459bac11c5124012af7da9b8b9dacf9
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Medium Idle_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1581
+        width: 605
+        height: 678
+      alignment: 9
+      pivot: {x: .703947604, y: .662014306}
+    - name: Medium Idle_1
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1583
+        width: 600
+        height: 680
+      alignment: 9
+      pivot: {x: .735741794, y: .657112002}
+    - name: Medium Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 1585
+        width: 586
+        height: 688
+      alignment: 9
+      pivot: {x: .764484107, y: .65528512}
+    - name: Medium Idle_3
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 1585
+        width: 596
+        height: 674
+      alignment: 9
+      pivot: {x: .778555036, y: .66794467}
+    - name: Medium Idle_4
+      rect:
+        serializedVersion: 2
+        x: 2540
+        y: 1580
+        width: 614
+        height: 698
+      alignment: 9
+      pivot: {x: .755640268, y: .634060502}
+    - name: Medium Idle_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 846
+        width: 628
+        height: 670
+      alignment: 9
+      pivot: {x: .73382026, y: .660418093}
+    - name: Medium Idle_7
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 844
+        width: 636
+        height: 686
+      alignment: 9
+      pivot: {x: .723738372, y: .650056422}
+    - name: Medium Idle_9
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 844
+        width: 655
+        height: 686
+      alignment: 9
+      pivot: {x: .706757665, y: .646565318}
+    - name: Medium Idle_13
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 30
+        width: 687
+        height: 683
+      alignment: 9
+      pivot: {x: .623801589, y: .645874083}
+    - name: Medium Idle_14
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 33
+        width: 661
+        height: 666
+      alignment: 9
+      pivot: {x: .590269268, y: .664192557}
+    - name: Medium Idle_15
+      rect:
+        serializedVersion: 2
+        x: 2757
+        y: 29
+        width: 668
+        height: 684
+      alignment: 9
+      pivot: {x: .616409421, y: .656318903}
+    - name: Medium Idle_18
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 39
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Medium Idle_20
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 1575
+        width: 586
+        height: 714
+      alignment: 9
+      pivot: {x: .765279591, y: .631056309}
+    - name: Medium Idle_20
+      rect:
+        serializedVersion: 2
+        x: 3773
+        y: 1580
+        width: 714
+        height: 703
+      alignment: 9
+      pivot: {x: .664877653, y: .643841386}
+    - name: Medium Idle_20
+      rect:
+        serializedVersion: 2
+        x: 3338
+        y: 847
+        width: 641
+        height: 672
+      alignment: 9
+      pivot: {x: .685548723, y: .659229755}
+    - name: Medium Idle_20
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 852
+        width: 655
+        height: 689
+      alignment: 9
+      pivot: {x: .693424404, y: .634433448}
+    - name: Medium Idle_21
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 849
+        width: 669
+        height: 690
+      alignment: 9
+      pivot: {x: .724016011, y: .64041096}
+    - name: Medium Idle_21
+      rect:
+        serializedVersion: 2
+        x: 3986
+        y: 850
+        width: 700
+        height: 689
+      alignment: 9
+      pivot: {x: .644892573, y: .638417661}
+    - name: Medium Idle_18
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 36
+        width: 702
+        height: 685
+      alignment: 9
+      pivot: {x: .617694557, y: .638353169}
+    - name: Medium Idle_19
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 24
+        width: 673
+        height: 707
+      alignment: 9
+      pivot: {x: .619155526, y: .640922248}
+    - name: Medium Idle_20
+      rect:
+        serializedVersion: 2
+        x: 3433
+        y: 33
+        width: 668
+        height: 688
+      alignment: 9
+      pivot: {x: .609163404, y: .638884068}
+    - name: Medium Idle_21
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 32
+        width: 575
+        height: 710
+      alignment: 9
+      pivot: {x: .715692103, y: .617513776}
+  spritePackingTag: 
+  userData: 

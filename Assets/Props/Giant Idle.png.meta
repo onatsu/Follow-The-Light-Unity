@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 9d145795c809449fcbb88651fde1936f
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Giant Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 622
+        width: 493
+        height: 567
+      alignment: 9
+      pivot: {x: .588640809, y: .687175333}
+    - name: Giant Idle_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 626
+        width: 547
+        height: 563
+      alignment: 9
+      pivot: {x: .565624058, y: .691277325}
+    - name: Giant Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 625
+        width: 607
+        height: 563
+      alignment: 9
+      pivot: {x: .571993351, y: .69682157}
+    - name: Giant Idle_3
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 620
+        width: 533
+        height: 569
+      alignment: 9
+      pivot: {x: .558563292, y: .694746256}
+    - name: Giant Idle_4
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 619
+        width: 465
+        height: 570
+      alignment: 9
+      pivot: {x: .593978405, y: .688928306}
+    - name: Giant Idle_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 57
+        width: 359
+        height: 526
+      alignment: 9
+      pivot: {x: .591295183, y: .737370729}
+    - name: Giant Idle_6
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 48
+        width: 438
+        height: 504
+      alignment: 9
+      pivot: {x: .560575604, y: .778698623}
+    - name: Giant Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 67
+        width: 490
+        height: 516
+      alignment: 9
+      pivot: {x: .576442897, y: .766168058}
+    - name: Giant Idle_8
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 39
+        width: 464
+        height: 527
+      alignment: 9
+      pivot: {x: .570635855, y: .736920297}
+    - name: Giant Idle_9
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 46
+        width: 531
+        height: 531
+      alignment: 9
+      pivot: {x: .570540547, y: .741014004}
+  spritePackingTag: 
+  userData: 

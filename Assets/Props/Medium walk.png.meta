@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 3889d33b3a56444aa937a8434234c343
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Medium walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 653
+        height: 739
+      alignment: 9
+      pivot: {x: .691057444, y: .636883795}
+    - name: Medium walk_1
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 0
+        width: 664
+        height: 739
+      alignment: 9
+      pivot: {x: .718361199, y: .641446531}
+    - name: Medium walk_2
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 0
+        width: 721
+        height: 739
+      alignment: 9
+      pivot: {x: .785278976, y: .600381374}
+    - name: Medium walk_3
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 0
+        width: 796
+        height: 739
+      alignment: 9
+      pivot: {x: .817704558, y: .655134916}
+    - name: Medium walk_4
+      rect:
+        serializedVersion: 2
+        x: 3032
+        y: 0
+        width: 853
+        height: 739
+      alignment: 9
+      pivot: {x: .855769575, y: .650572121}
+    - name: Medium walk_5
+      rect:
+        serializedVersion: 2
+        x: 3909
+        y: 0
+        width: 884
+        height: 735
+      alignment: 9
+      pivot: {x: .82803607, y: .642216325}
+    - name: Medium walk_6
+      rect:
+        serializedVersion: 2
+        x: 4876
+        y: 0
+        width: 728
+        height: 739
+      alignment: 9
+      pivot: {x: .852012575, y: .636883795}
+    - name: Medium walk_7
+      rect:
+        serializedVersion: 2
+        x: 5604
+        y: 0
+        width: 681
+        height: 739
+      alignment: 9
+      pivot: {x: .782230139, y: .614069819}
+    - name: Medium walk_8
+      rect:
+        serializedVersion: 2
+        x: 6383
+        y: 0
+        width: 637
+        height: 739
+      alignment: 9
+      pivot: {x: .690563083, y: .668823302}
+    - name: Medium walk_9
+      rect:
+        serializedVersion: 2
+        x: 7027
+        y: 0
+        width: 614
+        height: 739
+      alignment: 9
+      pivot: {x: .681226313, y: .650572121}
+  spritePackingTag: 
+  userData: 

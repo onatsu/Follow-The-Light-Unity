@@ -3,7 +3,8 @@ using System.Collections;
 
 public class extintorControllerScript : MonoBehaviour
 {
-	//variable para modificar la animación 
+
+	//variable para modificar la animación
 	Animator anim;
 
 	void Start ()
@@ -14,7 +15,12 @@ public class extintorControllerScript : MonoBehaviour
 
 	void FixedUpdate ()
 	{
-		//por ahora no tendra nada
+		//debe hacer que el personaje NO SE MUEVA
+
+		GameObject ghost = GameObject.Find("Arrows");
+		
+		//calculo de movimiento
+		ghost.rigidbody2D.velocity = new Vector2(0,0);
 	}
 
 }

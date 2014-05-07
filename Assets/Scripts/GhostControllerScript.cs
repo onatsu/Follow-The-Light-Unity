@@ -60,9 +60,13 @@ public class GhostControllerScript : MonoBehaviour
 				print("Has poseido salvajemente el " +this.collider.gameObject.name);
 
 				objetoPoseido = this.collider.gameObject.name;
-			 
+			 	
+				//ocultamos el personaje
 				this.gameObject.renderer.enabled = false;
-				collider.gameObject.GetComponent<archivadorControllerScript>().enabled = true;
+				//collider.gameObject.GetComponent<archivadorControllerScript>().enabled = true;
+
+				//poseemos el objeto que toque
+				posesion(objetoPoseido, true);
 			}
 		} else {
 			//si ya estamos poseyendo un objeto, el pj no se muestra y....
@@ -72,8 +76,13 @@ public class GhostControllerScript : MonoBehaviour
 				print("Has desposeido salvajemente el " +this.collider.gameObject.name);
 
 				objetoPoseido = this.collider.gameObject.name;
+
+				//mostramos el personaje
 				this.gameObject.renderer.enabled = true;
-				collider.gameObject.GetComponent<archivadorControllerScript>().enabled = false;
+
+				//collider.gameObject.GetComponent<archivadorControllerScript>().enabled = false;
+				//desposeemos el objeto que toque
+				posesion(objetoPoseido, false);
 			}
 		}
 
@@ -113,13 +122,19 @@ public class GhostControllerScript : MonoBehaviour
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
-	
 
-	void posesion(){
-		print("Has poseido salvajemente el " +this.collider.gameObject.name);
 
-		//desactivamos la posesion temporalmente
-		//this.transform.collider.isTrigger = true;
 
+	void posesion(string objetoPoseido, bool estado){
+		
+		switch(objetoPoseido){
+			case "archivador":
+				this.collider.gameObject.GetComponent<archivadorControllerScript>().enabled = estado;
+			break;
+			case "extintor":
+				this.collider.gameObject.GetComponent<extintorControllerScript>().enabled = estado;
+			break;
+		}
+		
 	}
 }

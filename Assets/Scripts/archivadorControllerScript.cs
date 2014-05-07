@@ -20,7 +20,7 @@ public class archivadorControllerScript : MonoBehaviour
 		float move = 0.0F;
 
 		//Obtenemos el eje de movimiento y sus controles: A-D  o  <- ->
-		move = Input.GetAxis ("HorizontalArrows");
+		move = Input.GetAxis ("HorizontalWASD");
 
 		//calculo de movimiento
 		rigidbody2D.velocity = new Vector2(move * maxSpeed, rigidbody2D.velocity.y);
